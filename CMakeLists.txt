@@ -8,8 +8,8 @@ option(BUILD_SHARED_LIBS "Build as a shared library" ON)
 
 # Base source files (common)
 set(BASE_SOURCES
-        src/provider.cpp
-        src/connection.cpp
+        src/Provider.cpp
+        src/Connection.cpp
 )
 
 add_library(blitz ${BASE_SOURCES})
